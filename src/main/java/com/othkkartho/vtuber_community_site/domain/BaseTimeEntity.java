@@ -1,4 +1,4 @@
-package com.othkkartho.vtuber_community_site.domain.entity;
+package com.othkkartho.vtuber_community_site.domain;
 
 import lombok.Getter;
 import org.springframework.data.annotation.CreatedDate;
