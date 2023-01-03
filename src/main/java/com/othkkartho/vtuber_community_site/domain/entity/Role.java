@@ -2,6 +2,7 @@ package com.othkkartho.vtuber_community_site.domain.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.Comment;
 
@@ -12,6 +13,7 @@ import java.util.LinkedHashSet;
 import java.util.Set;
 
 @Entity
+@Getter
 @Table(name = "ROLE")
 @Builder
 @AllArgsConstructor
