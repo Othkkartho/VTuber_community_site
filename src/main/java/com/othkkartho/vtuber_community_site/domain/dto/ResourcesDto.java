@@ -16,5 +16,6 @@ public class ResourcesDto {
     private String id;
     private String resourceName;
     private int orderNum;
+    private String roleName;
     private Set<Role> roleSet;
 }
