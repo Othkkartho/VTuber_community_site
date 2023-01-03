@@ -1,4 +1,4 @@
-package com.othkkartho.vtuber_community_site.security.service.user;
+package com.othkkartho.vtuber_community_site.service.user;
 
 import com.othkkartho.vtuber_community_site.domain.entity.Resources;
 import com.othkkartho.vtuber_community_site.domain.entity.Role;

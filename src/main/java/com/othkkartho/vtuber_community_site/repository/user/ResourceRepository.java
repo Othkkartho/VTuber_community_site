@@ -7,8 +7,6 @@ import org.springframework.data.jpa.repository.Query;
 import java.util.List;
 
 public interface ResourceRepository extends JpaRepository<Resources, Long> {
-    Resources findByResourceName(String resourceName);
-
     @Query("select r from Resources r join fetch r.roleSet order by r.orderNum desc")
     List<Resources> findAllResources();
 }

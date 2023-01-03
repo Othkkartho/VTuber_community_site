@@ -1,14 +1,12 @@
 package com.othkkartho.vtuber_community_site.domain.dto;
 
 import com.othkkartho.vtuber_community_site.domain.entity.AccountDetail;
-import com.othkkartho.vtuber_community_site.domain.entity.Role;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.List;
-import java.util.Set;
 
 @Data
 @Builder

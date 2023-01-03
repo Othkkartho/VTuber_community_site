@@ -1,11 +1,11 @@
-package com.othkkartho.vtuber_community_site.security.service.user.impl;
+package com.othkkartho.vtuber_community_site.service.user.impl;
 
 import com.othkkartho.vtuber_community_site.domain.dto.AccountDto;
 import com.othkkartho.vtuber_community_site.domain.entity.Account;
 import com.othkkartho.vtuber_community_site.domain.entity.Role;
 import com.othkkartho.vtuber_community_site.repository.user.RoleRepository;
 import com.othkkartho.vtuber_community_site.repository.user.UserRepository;
-import com.othkkartho.vtuber_community_site.security.service.user.UserService;
+import com.othkkartho.vtuber_community_site.service.user.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;

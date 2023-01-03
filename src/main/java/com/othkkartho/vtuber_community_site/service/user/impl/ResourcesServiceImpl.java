@@ -1,8 +1,8 @@
-package com.othkkartho.vtuber_community_site.security.service.user.impl;
+package com.othkkartho.vtuber_community_site.service.user.impl;
 
 import com.othkkartho.vtuber_community_site.domain.entity.Resources;
 import com.othkkartho.vtuber_community_site.repository.user.ResourceRepository;
-import com.othkkartho.vtuber_community_site.security.service.user.ResourcesService;
+import com.othkkartho.vtuber_community_site.service.user.ResourcesService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
